@@ -72,7 +72,7 @@ for (let x of array2) {
 // 7.
 let array3 = [32, 10, 'hello', null, 'hello2', 50 ];
 for (let y of array3) {
-    if (y % 5 == 0) {
+    if (y % 5 == 0 && typeof y == 'number') {
         console.log(y);
     }
 }
